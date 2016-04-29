@@ -1,0 +1,6 @@
+AT
+>seq1 適当な配列だけど AT が行の折り目と重なっている
+AGGTATA
+TGGCGCC
+>seq2 GC リッチな配列
+GGCCGGCGC
