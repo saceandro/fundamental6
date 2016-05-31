@@ -3,7 +3,7 @@
 import sys
 import re
 
-pat = re.compile("Chr [A-Za-z]+")
+pat = re.compile("Chr ([IVX]+|Mito)")
 for l in sys.stdin:
     if l.startswith('>'):
         items = l.split(',')
